@@ -35,15 +35,11 @@ namespace calculations
             int sweets2 = int.Parse(Console.ReadLine());
             int pile = (sweets * children) - (sweets2 * ducks * children) - children; //a calculation made after reading the text and working out
                                                                                       //how to solve it.
-            Console.WriteLine("There were {0} children each with a bag containing {1} sweets." +
-                "  They walked past {2} ducks. " +
-                " Each child gave {3} sweets to each of the ducks and ate one themself." +
-                " They decided to put the rest into a pile." +
+            Console.WriteLine("There were {0} children each with a bag containing {1} sweets. " +
+                "They walked past {2} ducks. " +
+                "Each child gave {3} sweets to each of the ducks and ate one themself. " +
+                "They decided to put the rest into a pile. " +
                 "They counted the pile and found it contained {4} sweets.", children, sweets, ducks, sweets2, pile); 
-            
-
-
-
         }
     }
 }
